@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "FFF",
+        "FFF",
+        "FFF"
+    ],
+    "key": {
+        "F": {
+            "item": "gamermod:orium_ingot"
+        }
+    },
+    "result": {
+        "item": "gamermod:orium_block",
+        "count": 1
+    }
+}

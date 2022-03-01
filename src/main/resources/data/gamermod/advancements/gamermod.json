@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "gamermod:netherite_stick"
+      },
+      "title": "GAMING",
+      "description": "OH no",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "background": "gamermod:textures/block/omnium_ore.png"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

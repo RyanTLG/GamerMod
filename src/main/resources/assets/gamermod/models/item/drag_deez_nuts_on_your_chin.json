@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "gamermod:item/drag_deez_nuts_on_your_chin"
+    }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "gamermod",
+  "version": "${version}",
+
+  "name": "GamerMod",
+  "description": "i fucked your  mother",
+  "authors": [
+    "RyanTLG"
+  ],
+  "gamermod": {
+    "links":{
+      "Discord": "https://discord.com/invite/FtwJ5QtfA8"
+    }
+  },
+
+  "license": "MIT",
+  "icon": "assets/gamermod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.ryantlg.gamermod"
+    ],
+    "client": [
+      "net.fabricmc.ryantlg.gamermodClient"
+    ]
+  },
+  "mixins": [
+    "gamermod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

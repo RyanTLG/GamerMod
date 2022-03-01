@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gamermod:orium_block"
+        }
+    ],
+    "result": {
+        "item": "gamermod:orium_ingot",
+        "count": 9
+    }
+}

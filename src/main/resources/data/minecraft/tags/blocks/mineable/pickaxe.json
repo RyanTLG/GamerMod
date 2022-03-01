@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+      "gamermod:omnium_block",
+      "gamermod:omnium_ore",
+      "gamermod:orium_block",
+      "gamermod:orium_ore"
+    ]
+  }

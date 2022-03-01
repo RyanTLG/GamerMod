@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "F F",
+        "F F"
+    ],
+    "key": {
+        "F": {
+            "item": "gamermod:orium_ingot"
+        }
+    },
+    "result": {
+        "item": "gamermod:orium_boots",
+        "count": 1
+    }
+}

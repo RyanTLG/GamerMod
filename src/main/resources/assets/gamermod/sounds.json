@@ -1,0 +1,17 @@
+{
+    "sniff": {
+      "sounds": [
+        "gamermod:sniff"
+      ]
+    },
+    "matt": {
+        "sounds": [
+            "gamermod:damon"
+        ]
+    },
+    "elon": {
+      "sounds": [
+        "gamermod:elon"
+      ]
+    }
+  }

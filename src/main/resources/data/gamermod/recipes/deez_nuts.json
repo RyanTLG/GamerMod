@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gamermod:nuts"
+        },
+        {
+            "item": "gamermod:deez"
+        }
+    ],
+    "result": {
+        "item": "gamermod:deez_nuts",
+        "count": 1
+    }
+}

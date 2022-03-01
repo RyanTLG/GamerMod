@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " # ",
+        " W "
+    ],
+    "key": {
+        "#": {
+            "item": "gamermod:orium_ingot"
+        },
+        "W": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "gamermod:orium_sword",
+        "count": 1
+    }
+}
