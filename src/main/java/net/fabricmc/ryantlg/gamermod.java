@@ -19,6 +19,7 @@ import net.fabricmc.ryantlg.items.miscItems.fabricOfReality;
 import net.fabricmc.ryantlg.items.tools.omniumTools;
 import net.fabricmc.ryantlg.items.tools.oriumTools;
 import net.fabricmc.ryantlg.lootTables.grassVanillaWeem;
+import net.fabricmc.ryantlg.statusEffects.statusEffects;
 import net.fabricmc.ryantlg.worldGeneration.OmniumOreGen;
 import net.fabricmc.ryantlg.worldGeneration.OriumOreGen;
 import net.minecraft.item.ItemGroup;
@@ -90,6 +91,8 @@ public class gamermod implements ModInitializer {
 		CropBlocks.register();
 
 		fabricOfReality.register();
+
+		statusEffects.register();
 
 		jeremiumMetals.register();
 	}

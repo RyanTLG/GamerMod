@@ -48,6 +48,7 @@
     "item.gamermod.orium_sword": "Orium Sword",
     "item.gamermod.orium_pickaxe": "Orium Pickaxe",
     "item.gamermod.fabric_of_reality.tooltip": "Warning: has a chance to get §o§l§4RIPPED§r.",
-    "item.gamermod.fabric_of_reality": "Fabric of Reality"
+    "item.gamermod.fabric_of_reality": "Fabric of Reality",
+    "effect.gamermod.high": "High"
 
 } 

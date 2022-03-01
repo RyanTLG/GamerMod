@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.ryantlg.gamermod;
 import net.fabricmc.ryantlg.itemClasses.BreemItem;
 import net.fabricmc.ryantlg.itemClasses.WeemItem;
+import net.fabricmc.ryantlg.statusEffects.statusEffects;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
@@ -31,7 +32,7 @@ public class weemItems {
         .meat()
         .snack()
         .statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20*7), 1f)
-        .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20*8), 1f)
+        .statusEffect(new StatusEffectInstance(statusEffects.HIGH, 20*8), 1f)
         .build()
         ));
 
