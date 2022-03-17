@@ -15,10 +15,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.ryantlg.gamermod"
+      "net.arcmods.ryantlg.gamermod"
     ],
     "client": [
-      "net.fabricmc.ryantlg.gamermodClient"
+      "net.arcmods.ryantlg.gamermodClient"
     ]
   },
   "mixins": [

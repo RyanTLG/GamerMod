@@ -66,11 +66,20 @@ publishing {
 		}
 	}
 
-	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
+	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.{
+	// Add repositories to publish to here.
+	// Notice: This block does NOT have the same function as the block in the top level.
+	// The repositories here will be used for publishing your artifact, not for
+	// retrieving dependencies.
 	repositories {
-		// Add repositories to publish to here.
-		// Notice: This block does NOT have the same function as the block in the top level.
-		// The repositories here will be used for publishing your artifact, not for
-		// retrieving dependencies.
+		maven {
+      		name = "GitHubPackages"
+      		url = "https://maven.pkg.github.com/RyanTLG/GamerMod"
+    		credentials {
+    		username = "RyanTLG"
+       		password = "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"
+      		}
+    	}
 	}
+
 }
