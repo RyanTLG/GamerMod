@@ -8,11 +8,6 @@
   "authors": [
     "RyanTLG"
   ],
-  "gamermod": {
-    "links":{
-      "Discord": "https://discord.com/invite/FtwJ5QtfA8"
-    }
-  },
 
   "license": "MIT",
   "icon": "assets/gamermod/icon.png",
