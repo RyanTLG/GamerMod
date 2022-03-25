@@ -28,6 +28,7 @@ public class highStatusEffect extends StatusEffect{
       ((PlayerEntity) entity).dismountVehicle();
       ((PlayerEntity) entity).damage(DamageSource.FALL, (float) 0.01);
       ((PlayerEntity) entity).heal(3 << amplifier);
+      ((PlayerEntity) entity).getFallSounds();
     }
   }
     
