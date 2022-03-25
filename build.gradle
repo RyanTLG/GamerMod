@@ -73,8 +73,8 @@ publishing {
       			name = "GitHubPackages"
       			url = "https://maven.pkg.github.com/RyanTLG/gamermod"
       			credentials {
-        		username = "RyanTLG"
-        		password = "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"
+        		username = System.getenv("UNAME")
+        		password = System.getenv("CODE")
       			}
     		}
   		}
