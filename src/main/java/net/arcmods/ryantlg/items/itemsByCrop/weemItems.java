@@ -18,7 +18,7 @@ public class weemItems {
 
 //main items
 //================================================================================================================
-    public static final Item WEEM = new Item(new Item.Settings().group(gamermod.CHING).maxCount(64));
+    public static final Item WEEM = new Item(new Item.Settings().group(gamermod.CHING).maxCount(128));
 
 //  foods
 //================================================================================================================
