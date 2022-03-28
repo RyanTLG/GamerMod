@@ -6,7 +6,7 @@ import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class statusEffects {
+public class GamerEffects {
 
     public static final StatusEffect HIGH = new highStatusEffect();
 

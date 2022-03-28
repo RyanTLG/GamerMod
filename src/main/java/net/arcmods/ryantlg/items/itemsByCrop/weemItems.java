@@ -4,7 +4,7 @@ import net.arcmods.ryantlg.gamermod;
 import net.arcmods.ryantlg.blocks.CropBlocks;
 import net.arcmods.ryantlg.itemClasses.BreemItem;
 import net.arcmods.ryantlg.itemClasses.WeemItem;
-import net.arcmods.ryantlg.statusEffects.statusEffects;
+import net.arcmods.ryantlg.statusEffects.GamerEffects;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -32,7 +32,7 @@ public class weemItems {
         .meat()
         .snack()
         .statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20*7), 1f)
-        .statusEffect(new StatusEffectInstance(statusEffects.HIGH, 20*8), 1f)
+        .statusEffect(new StatusEffectInstance(GamerEffects.HIGH, 20*8), 1f)
         .build()
         ));
 
@@ -43,12 +43,13 @@ public class weemItems {
         .hunger(11)
         .saturationModifier(013f)
         .alwaysEdible()
-        .statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20*9), 1f)
+        .statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20*8), 1f)
         .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20*30, 3), 1f)
         .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 20*150, 2), 1f)
         .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 20*150, 2), 1f)
         .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 20*160, 3), 1f)
         .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 20*160), 1f)
+        .statusEffect(new StatusEffectInstance(GamerEffects.HIGH, 20*9), 1f)
         .build()
         ));
 //================================================================================================================

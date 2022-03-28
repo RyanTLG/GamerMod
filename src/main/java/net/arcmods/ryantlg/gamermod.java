@@ -16,7 +16,7 @@ import net.arcmods.ryantlg.items.miscItems.fabricOfReality;
 import net.arcmods.ryantlg.items.tools.omniumTools;
 import net.arcmods.ryantlg.items.tools.oriumTools;
 import net.arcmods.ryantlg.lootTables.grassVanillaWeem;
-import net.arcmods.ryantlg.statusEffects.statusEffects;
+import net.arcmods.ryantlg.statusEffects.GamerEffects;
 import net.arcmods.ryantlg.worldGeneration.OmniumOreGen;
 import net.arcmods.ryantlg.worldGeneration.OriumOreGen;
 import net.fabricmc.api.ModInitializer;
@@ -92,7 +92,7 @@ public class gamermod implements ModInitializer {
 
 		fabricOfReality.register();
 
-		statusEffects.register();
+		GamerEffects.register();
 
 		jeremiumMetals.register();
 	}
