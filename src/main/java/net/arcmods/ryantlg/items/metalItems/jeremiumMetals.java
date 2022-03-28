@@ -1,6 +1,7 @@
 package net.arcmods.ryantlg.items.metalItems;
 
 import net.arcmods.ryantlg.gamermod;
+import net.arcmods.ryantlg.statusEffects.GamerEffects;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
@@ -19,12 +20,11 @@ public class jeremiumMetals {
     .food(
         new FoodComponent
         .Builder()
-        .hunger(11)
-        .saturationModifier(013f)
-        .alwaysEdible()
+        .hunger(4)
+        .saturationModifier(03f)
         .meat()
         .snack()
-        .statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20*7), 1f)
+        .statusEffect(new StatusEffectInstance(GamerEffects.JEREMYD, 20*7), 1f)
         .build()
     ));
 

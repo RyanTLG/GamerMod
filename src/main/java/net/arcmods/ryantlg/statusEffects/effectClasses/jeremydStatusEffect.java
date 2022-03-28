@@ -23,12 +23,7 @@ public class jeremydStatusEffect extends StatusEffect{
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity instanceof PlayerEntity) {
             ((PlayerEntity) entity).addExperience(0 << amplifier);
-            ((PlayerEntity) entity).getFallSounds();
-            ((PlayerEntity) entity).disableShield(true);
-            ((PlayerEntity) entity).dismountVehicle();
-            ((PlayerEntity) entity).damage(DamageSource.FALL, (float) 0.01);
-            ((PlayerEntity) entity).heal(3 << amplifier);
-            ((PlayerEntity) entity).getFallSounds();
+
         }
     }
     
