@@ -49,6 +49,8 @@
     "item.gamermod.orium_pickaxe": "Orium Pickaxe",
     "item.gamermod.fabric_of_reality.tooltip": "Warning: has a chance to get §o§l§4RIPPED§r.",
     "item.gamermod.fabric_of_reality": "Fabric of Reality",
-    "effect.gamermod.high": "High"
+    "effect.gamermod.high": "High",
+    "item.gamermod.jeremium_ingot": "Jeremium Ingot",
+    "item.gamermod.raw_jeremium": "Raw Jeremium"
 
 } 

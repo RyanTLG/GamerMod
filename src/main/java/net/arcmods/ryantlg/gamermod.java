@@ -2,6 +2,7 @@ package net.arcmods.ryantlg;
 
 import net.arcmods.ryantlg.blocks.CropBlocks;
 import net.arcmods.ryantlg.blocks.FunnyBlocks;
+import net.arcmods.ryantlg.blocks.jeremiumBlocks;
 import net.arcmods.ryantlg.blocks.omniumBlocks;
 import net.arcmods.ryantlg.blocks.oriumBlocks;
 import net.arcmods.ryantlg.items.armour.omniumArmour;
@@ -95,6 +96,7 @@ public class gamermod implements ModInitializer {
 		GamerEffects.register();
 
 		jeremiumMetals.register();
+		jeremiumBlocks.register();
 	}
 	
 }
