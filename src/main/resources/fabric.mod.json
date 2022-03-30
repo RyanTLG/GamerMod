@@ -32,6 +32,6 @@
     "java": ">=17"
   },
   "suggests": {
-    "darkevolution": "1.18.1-*"
+    "darkevolution": "*"
   }
 }
