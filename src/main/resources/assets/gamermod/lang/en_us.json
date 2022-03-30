@@ -51,6 +51,8 @@
     "item.gamermod.fabric_of_reality": "Fabric of Reality",
     "effect.gamermod.high": "High",
     "item.gamermod.jeremium_ingot": "Jeremium Ingot",
-    "item.gamermod.raw_jeremium": "Raw Jeremium"
+    "item.gamermod.raw_jeremium": "Raw Jeremium",
+    "block.gamermod.jeremium_ore": "Jeremium Ore",
+    "block.gamermod.jeremium_block": "Jeremium Block"
 
 } 
