@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "FEF",
+        "FFF",
+        "FFF"
+    ],
+    "key": {
+        "F": {
+            "item": "gamermod:jeremium_ingot"
+        },
+        "E": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "item": "gamermod:jeremium_chestplate",
+        "count": 1
+    }
+}

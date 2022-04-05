@@ -53,6 +53,18 @@
     "item.gamermod.jeremium_ingot": "Jeremium Ingot",
     "item.gamermod.raw_jeremium": "Raw Jeremium",
     "block.gamermod.jeremium_ore": "Jeremium Ore",
-    "block.gamermod.jeremium_block": "Jeremium Block"
+    "block.gamermod.jeremium_block": "Jeremium Block",
+    "item.gamermod.jeremium_helmet": "Jeremium Helmet",
+    "item.gamermod.jeremium_chestplate": "Jeremium Chestplate",
+    "item.gamermod.jeremium_leggings": "Jeremium Leggings",
+    "item.gamermod.jeremium_boots": "Jeremium Boots",
+    "block.gamermod.jeremium.tooltip": "Heavy, but emits light.",
+    "all.gamermod.jeremium.tooltiptwo": "Less able to fit in a stack because it's heavy",
+    "item.gamermod.jeremium_sword": "Jeremium Sword",
+    "item.gamermod.jeremium_axe": "Jeremium Axe",
+    "item.gamermod.jeremium_hoe": "Jeremium Hoe",
+    "item.gamermod.jeremium_shovel": "Jeremium Shovel",
+    "item.gamermod.jeremium_pickaxe": "Jeremium Pickaxe",
+    "item.gamermod.jeremium_sword.tooltip": "Kinda heavy"
 
 } 

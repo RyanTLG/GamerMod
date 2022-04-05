@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "W#",
+        "W "
+    ],
+    "key": {
+        "#": {
+            "item": "gamermod:jeremium_ingot"
+        },
+        "W": {
+            "item": "gamermod:netherite_stick"
+        }
+    },
+    "result": {
+        "item": "gamermod:jeremium_axe",
+        "count": 1
+    }
+}
