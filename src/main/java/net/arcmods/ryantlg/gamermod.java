@@ -20,6 +20,7 @@ import net.arcmods.ryantlg.items.tools.omniumTools;
 import net.arcmods.ryantlg.items.tools.oriumTools;
 import net.arcmods.ryantlg.lootTables.grassVanillaWeem;
 import net.arcmods.ryantlg.statusEffects.GamerEffects;
+import net.arcmods.ryantlg.worldGeneration.JeremiumOreGen;
 import net.arcmods.ryantlg.worldGeneration.OmniumOreGen;
 import net.arcmods.ryantlg.worldGeneration.OriumOreGen;
 import net.fabricmc.api.ModInitializer;
@@ -101,6 +102,8 @@ public class gamermod implements ModInitializer {
 		jeremiumBlocks.register();
 		jeremiumArmour.register();
 		jeremiumTools.register();
+		JeremiumOreGen.register();
+
 	}
 	
 }

@@ -4,6 +4,9 @@
       "gamermod:omnium_block",
       "gamermod:omnium_ore",
       "gamermod:orium_block",
-      "gamermod:orium_ore"
+      "gamermod:orium_ore",
+      "gamermod:jeremium_ore",
+      "gamermod:deepslate_jeremium_ore",
+      "gamermod:jeremium_block"
     ]
   }
