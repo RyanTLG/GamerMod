@@ -65,6 +65,9 @@
     "item.gamermod.jeremium_hoe": "Jeremium Hoe",
     "item.gamermod.jeremium_shovel": "Jeremium Shovel",
     "item.gamermod.jeremium_pickaxe": "Jeremium Pickaxe",
-    "item.gamermod.jeremium_sword.tooltip": "Kinda heavy"
+    "item.gamermod.jeremium_sword.tooltip": "Kinda heavy",
+    "block.gamermod.deepslate_jeremium_ore": "Deepslate Jeremium Ore",
+    "block.gamermod.deepslate_omnium_ore": "Deepslate Omnium Ore",
+    "block.gamermod.deepslate_orium_ore": "Deepslate Orium Ore"
 
 } 

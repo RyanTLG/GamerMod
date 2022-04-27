@@ -4,6 +4,8 @@
       "gamermod:omnium_ore",
       "gamermod:orium_ore",
       "gamermod:jeremium_ore",
-      "gamermod:deepslate_jeremium_ore"
+      "gamermod:deepslate_jeremium_ore",
+      "gamermod:deepslate_omnium_ore",
+      "gamermod:deepslate_orium_ore"
     ]
   }

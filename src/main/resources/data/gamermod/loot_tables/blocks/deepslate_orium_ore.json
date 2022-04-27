@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "gamermod:omnium_ore",
+              "name": "gamermod:deepslate_orium_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "gamermod:raw_omnium",
+              "name": "gamermod:raw_orium",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",
