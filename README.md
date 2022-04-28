@@ -5,7 +5,7 @@
   <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api"><img src="https://i.imgur.com/Ol1Tcf8.png" alt="fabricapi"></a>
 </p>
 <p align="center">
-  <a href="http://forthebadge.com/"><img src="https://github.com/RyanTLG/GamerMod/badges/epic-gaming.svg" alt="epicgaming"/></a>
+  <a href="http://forthebadge.com/"><img src="https://raw.github.com/RyanTLG/GamerMod/badges/epic-gaming.svg" alt="epicgaming"/></a>
   <a href="http://forthebadge.com/"><img src="https://github.com/RyanTLG/GamerMod/badges/i-have-severe-depression.svg" alt="epicgaming"/></a>
 </p>
 <p align="center">
