@@ -9,6 +9,11 @@
     "RyanTLG"
   ],
 
+  "contact": {
+    "issues": "https://github.com/RyanTLG/GamerMod/issues",
+    "sources": "https://github.com/RyanTLG/GamerMod"
+  },
+
   "license": "GPL3",
   "icon": "assets/gamermod/icon.png",
 
