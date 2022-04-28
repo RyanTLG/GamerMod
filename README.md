@@ -16,3 +16,7 @@
 </p>
 
 GamerMod is a simple mod that adds a few ores and a few other items to minecraft via the Fabric modloader and uses Fabric API
+
+### Modpack usage
+
+You want to use it in a modpack? Sure! Just remember to credit me or the ARCMods team.
