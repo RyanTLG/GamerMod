@@ -24,17 +24,16 @@ public class OriumOreGen {
     private static ConfiguredFeature<?, ?> ORIUM_ORE_CONFIGURED_FEATURE = Feature.ORE.configure(new OreFeatureConfig(
           OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
           oriumBlocks.ORIUM_ORE.getDefaultState(),
-          6)); // vein size
+          5)); // vein size
  
   	public static PlacedFeature ORIUM_ORE_PLACED_FEATURE = ORIUM_ORE_CONFIGURED_FEATURE.withPlacement(
-      	CountPlacementModifier.of(9), // number of veins per chunk
+      	CountPlacementModifier.of(5), // number of veins per chunk
       	SquarePlacementModifier.of(), // spreading horizontally
-      	HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(45))); // height
+      	HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(35))); // height
  
     
 
     public static void register() {
-		gamermod.LOGGER.info("OriumOreGen loaded");
 
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
         new Identifier("gamermod", "orium_ore"), ORIUM_ORE_CONFIGURED_FEATURE);
@@ -44,5 +43,6 @@ public class OriumOreGen {
         	RegistryKey.of(Registry.PLACED_FEATURE_KEY,
             	new Identifier("gamermod", "orium_ore")));
 
+		gamermod.LOGGER.info("OriumOreGen loaded");
     }
 }

@@ -27,14 +27,13 @@ public class OmniumOreGen {
           4)); // vein size
  
   	public static PlacedFeature OMNIUM_ORE_PLACED_FEATURE = OMNIUM_ORE_CONFIGURED_FEATURE.withPlacement(
-      	CountPlacementModifier.of(6), // number of veins per chunk
+      	CountPlacementModifier.of(2), // number of veins per chunk
       	SquarePlacementModifier.of(), // spreading horizontally
-      	HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(28))); // height
+      	HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(19))); // height
  
     
 
     public static void register() {
-		gamermod.LOGGER.info("OmniumOreGen loaded");
 
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
         new Identifier("gamermod", "omnium_ore"), OMNIUM_ORE_CONFIGURED_FEATURE);
@@ -44,5 +43,6 @@ public class OmniumOreGen {
         	RegistryKey.of(Registry.PLACED_FEATURE_KEY,
             	new Identifier("gamermod", "omnium_ore")));
 
+		gamermod.LOGGER.info("OmniumOreGen loaded");
     }
 }

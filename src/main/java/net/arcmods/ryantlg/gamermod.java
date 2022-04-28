@@ -21,6 +21,8 @@ import net.arcmods.ryantlg.items.tools.omniumTools;
 import net.arcmods.ryantlg.items.tools.oriumTools;
 import net.arcmods.ryantlg.lootTables.grassVanillaWeem;
 import net.arcmods.ryantlg.statusEffects.GamerEffects;
+import net.arcmods.ryantlg.worldGeneration.DeepslateOmniumOreGen;
+import net.arcmods.ryantlg.worldGeneration.DeepslateOriumOreGen;
 import net.arcmods.ryantlg.worldGeneration.JeremiumOreGen;
 import net.arcmods.ryantlg.worldGeneration.OmniumOreGen;
 import net.arcmods.ryantlg.worldGeneration.OriumOreGen;
@@ -41,7 +43,7 @@ public class gamermod implements ModInitializer {
 	
 
 	public static final ItemGroup FNUTS = FabricItemGroupBuilder.build(
-		new Identifier("gamermod", "fuck"),
+		new Identifier("gamermod", "chins"),
 		() -> new ItemStack(Items.NETHERITE_INGOT)
 		);
 
@@ -54,29 +56,17 @@ public class gamermod implements ModInitializer {
 		new Identifier("gamermod", "armour_and_tools"))
 		.icon(() -> new ItemStack(omniumMetals.OMNIUM))
 		.build();
-
-	// dims portals
-	//===================================================
-
-	// JUST FUCKING KIDDING THE FUCKING API AINT WORKING
-	// I WANT TO FUCKING KILL A CHILD WITH A RAZER SHARP
-	// FUCKING BLADE THAT WILL END THE FUCKING WORLD AND
-	// RIP THE FABRICS OF REALITY APART. DO YOU WANT TO
-	// SEE THE FABRICS OF REALITY? OF COURSE YOU DO
-	// THEN RUN /give @p gamermod:fabric_of_reality
-
-	//end
-	//===================================================
 	
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Sup CUNT");
+		LOGGER.info("Sup gamer");
 		
 		omniumMetals.register();
 		omniumArmour.register();
 		omniumTools.register();
 		omniumBlocks.register();
 		OmniumOreGen.register();
+		DeepslateOmniumOreGen.register();
 
 		weemItems.register();
 
@@ -92,6 +82,7 @@ public class gamermod implements ModInitializer {
 		oriumArmour.register();
 		oriumTools.register();
 		OriumOreGen.register();
+		DeepslateOriumOreGen.register();
 
 		CropBlocks.register();
 

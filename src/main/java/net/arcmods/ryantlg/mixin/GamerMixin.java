@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class GamerMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		gamermod.LOGGER.info("fuck you");
+		gamermod.LOGGER.info("what a gamer");
 	}
 }

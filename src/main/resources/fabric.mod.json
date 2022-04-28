@@ -4,12 +4,12 @@
   "version": "${version}",
 
   "name": "GamerMod",
-  "description": "i fucked your  mother",
+  "description": "for gamers, by gæmer",
   "authors": [
     "RyanTLG"
   ],
 
-  "license": "MIT",
+  "license": "GPL3",
   "icon": "assets/gamermod/icon.png",
 
   "environment": "*",
