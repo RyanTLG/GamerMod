@@ -19,4 +19,8 @@ GamerMod is a simple mod that adds a few ores and a few other items to minecraft
 
 ### Modpack usage
 
-You want to use it in a modpack? Sure! Just remember to credit me or the ARCMods team.
+You want to use it in a modpack? Sure! Just remember to credit me or the ARCMods team, this is a threat.
+
+### Issues
+
+If you find an issue or bug in the mod or just have a general suggestion you can write it [here](https://github.com/RyanTLG/GamerMod/issues)
