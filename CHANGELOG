@@ -1,0 +1,8 @@
+# Changes:
+## 1.18.2-0.1.0-unstable
+- changed dependencies for update to 1.18.2
+- still have "errors" in code, not sure how to fix
+- ore gen works perfectly (checked) even with errors
+- created CHANGELOG file for version branch
+- have crippling depression
+- man, updating is a bitch
