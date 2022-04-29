@@ -4,9 +4,6 @@
   <a title="Fabric API" href="https://minecraft.curseforge.com/projects/fabric-api" target="_blank" rel="noopener noreferrer"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/Ol1Tcf8.png" alt="" width="150" height="50" /></a>
 </p>
 <p align="center">
-  <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api"><img src="https://i.imgur.com/Ol1Tcf8.png" alt="fabricapi"></a>
-</p>
-<p align="center">
   <a href="http://forthebadge.com/"><img src="https://github.com/RyanTLG/GamerMod/blob/1-18-1/unstable/badges/epic-gaming.svg" alt="epicgaming"/></a>
   <a href="http://forthebadge.com/"><img src="https://github.com/RyanTLG/GamerMod/blob/1-18-1/unstable/badges/i-have-severe-depression.svg" alt="epicgaming"/></a>
 </p>
