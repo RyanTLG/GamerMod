@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " #X",
+      "#SX",
+      " #X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "minecraft:string"
+      },
+      "S": {
+          "item": "minecraft:light_blue_dye"
+      }
+    },
+    "result": {
+      "item": "gamermod:gamer_bow"
+    }
+  }
+  
