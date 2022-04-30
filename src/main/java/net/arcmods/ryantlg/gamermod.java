@@ -9,6 +9,7 @@ import net.arcmods.ryantlg.items.armour.jeremiumArmour;
 import net.arcmods.ryantlg.items.armour.notArmour;
 import net.arcmods.ryantlg.items.armour.omniumArmour;
 import net.arcmods.ryantlg.items.armour.oriumArmour;
+import net.arcmods.ryantlg.items.bows.strongBow;
 import net.arcmods.ryantlg.items.itemsByCrop.weemItems;
 import net.arcmods.ryantlg.items.metalItems.jeremiumMetals;
 import net.arcmods.ryantlg.items.metalItems.omniumMetals;
@@ -97,6 +98,7 @@ public class gamermod implements ModInitializer {
 		JeremiumOreGen.register();
 
 		notArmour.register();
+		strongBow.register();
 
 	}
 	//fight me
