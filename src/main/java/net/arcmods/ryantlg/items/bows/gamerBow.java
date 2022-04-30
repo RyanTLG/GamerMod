@@ -7,12 +7,12 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class strongBow {
+public class gamerBow {
     
-    public static final Item STRONG_BOW = new BowItem(new FabricItemSettings().group(gamermod.CHING).maxCount(1).fireproof().maxDamage(458));
+    public static final Item GAMER_BOW = new BowItem(new FabricItemSettings().group(gamermod.CHING).maxCount(1).fireproof().maxDamage(458));
 
     public static void register(){
-        Registry.register(Registry.ITEM, new Identifier("gamermod", "strong_bow"), STRONG_BOW);
+        Registry.register(Registry.ITEM, new Identifier("gamermod", "gamer_bow"), GAMER_BOW);
     }
 
 

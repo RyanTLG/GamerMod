@@ -1,6 +1,6 @@
 package net.arcmods.ryantlg.utils;
 
-import net.arcmods.ryantlg.items.bows.strongBow;
+import net.arcmods.ryantlg.items.bows.gamerBow;
 import net.fabricmc.fabric.api.object.builder.v1.client.model.FabricModelPredicateProviderRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
@@ -8,7 +8,7 @@ import net.minecraft.util.Identifier;
 public class bowModelPredicateProvider {
 
     public static void registerBowModels() {
-        registerBow(strongBow.STRONG_BOW);
+        registerBow(gamerBow.GAMER_BOW);
     }
 
     private static void registerBow(Item bow) {

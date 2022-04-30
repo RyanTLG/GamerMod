@@ -8,3 +8,9 @@
 - changed bow maxDamage to 458 from 19 (found ot it wasnt attack damage)
 - registered model predicate provider in client initializer
 - figuring out new stuff is painful
+
+## 1.18.1-1.1.0-stable
+- renamed strong bow to Gamer Bow
+- added textures for Gamer Bow
+- added crafting recipe for Gamer Bow
+- fully implemented Gamer Bow
