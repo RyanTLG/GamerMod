@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "W ",
+        "W "
+    ],
+    "key": {
+        "#": {
+            "item": "gameritems:jeremium_ingot"
+        },
+        "W": {
+            "item": "gameritems:netherite_stick"
+        }
+    },
+    "result": {
+        "item": "gameritems:jeremium_hoe",
+        "count": 1
+    }
+}

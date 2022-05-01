@@ -17,8 +17,8 @@ public class jeremiumBlock extends Block{
     }
     @Override
     public void appendTooltip(ItemStack itemStack, BlockView world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add( new TranslatableText("block.gamermod.jeremium.tooltip").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
-        tooltip.add( new TranslatableText("all.gamermod.jeremium.tooltiptwo").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
+        tooltip.add( new TranslatableText("block.gameritems.jeremium.tooltip").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
+        tooltip.add( new TranslatableText("all.gameritems.jeremium.tooltiptwo").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
     }
 
 }

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "F F",
+        "FFF",
+        "FFF"
+    ],
+    "key": {
+        "F": {
+            "item": "gameritems:orium_ingot"
+        }
+    },
+    "result": {
+        "item": "gameritems:orium_chestplate",
+        "count": 1
+    }
+}

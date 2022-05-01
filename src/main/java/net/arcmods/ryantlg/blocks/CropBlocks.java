@@ -1,6 +1,6 @@
 package net.arcmods.ryantlg.blocks;
 
-import net.arcmods.ryantlg.gamermod;
+import net.arcmods.ryantlg.gameritems;
 import net.arcmods.ryantlg.blockClasses.WeemCropBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.CropBlock;
@@ -14,8 +14,8 @@ public class CropBlocks {
 
     public static void register() {
 
-        Registry.register(Registry.BLOCK, new Identifier("gamermod","weem_crop_block"), WEEM_CROP_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier("gameritems","weem_crop_block"), WEEM_CROP_BLOCK);
 
-        gamermod.LOGGER.info("CropBlocks loaded");
+        gameritems.LOGGER.info("CropBlocks loaded");
     }
 }

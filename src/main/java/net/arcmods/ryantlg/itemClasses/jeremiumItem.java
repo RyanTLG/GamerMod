@@ -19,7 +19,7 @@ public class jeremiumItem extends Item{
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
 
-    tooltip.add( new TranslatableText("all.gamermod.jeremium.tooltiptwo").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
+    tooltip.add( new TranslatableText("all.gameritems.jeremium.tooltiptwo").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
 
     }
     

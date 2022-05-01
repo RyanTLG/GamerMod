@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient": {
-        "item": "gamermod:raw_orium"
-    },
-    "result": "gamermod:orium_ingot",
-    "experience": 1,
-    "cookingtime": 200
-}

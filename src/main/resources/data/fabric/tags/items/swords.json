@@ -1,8 +1,8 @@
 {
     "replace": false,
     "values": [
-      "gamermod:omnium_sword",
-      "gamermod:orium_sword",
-      "gamermod:jeremium_sword"
+      "gameritems:omnium_sword",
+      "gameritems:orium_sword",
+      "gameritems:jeremium_sword"
     ]
   }

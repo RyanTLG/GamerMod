@@ -17,6 +17,6 @@ public class oriumBlock extends Block{
     }
     @Override
     public void appendTooltip(ItemStack itemStack, BlockView world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add( new TranslatableText("block.gamermod.orium.tooltip").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
+        tooltip.add( new TranslatableText("block.gameritems.orium.tooltip").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
     }
 }

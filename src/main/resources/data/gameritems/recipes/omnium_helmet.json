@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "FFF",
+        "FEF"
+    ],
+    "key": {
+        "F": {
+            "item": "gameritems:omnium_ingot"
+        },
+        "E": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "item": "gameritems:omnium_helmet",
+        "count": 1
+    }
+}

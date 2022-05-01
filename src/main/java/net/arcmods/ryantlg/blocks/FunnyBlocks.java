@@ -1,6 +1,6 @@
 package net.arcmods.ryantlg.blocks;
 
-import net.arcmods.ryantlg.gamermod;
+import net.arcmods.ryantlg.gameritems;
 import net.arcmods.ryantlg.blockClasses.Damon;
 import net.arcmods.ryantlg.blockClasses.elon;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -17,12 +17,12 @@ public class FunnyBlocks {
 
     public static void register() {
 
-        Registry.register(Registry.BLOCK, new Identifier("gamermod", "matt_damon"), MATT_DAMON);
-        Registry.register(Registry.ITEM, new Identifier("gamermod", "matt_damon"), new BlockItem(MATT_DAMON, new FabricItemSettings().group(gamermod.FNUTS)));
+        Registry.register(Registry.BLOCK, new Identifier("gameritems", "matt_damon"), MATT_DAMON);
+        Registry.register(Registry.ITEM, new Identifier("gameritems", "matt_damon"), new BlockItem(MATT_DAMON, new FabricItemSettings().group(gameritems.FNUTS)));
 
-        Registry.register(Registry.BLOCK, new Identifier("gamermod", "elon_musk"), ELON_MUSK);
-        Registry.register(Registry.ITEM, new Identifier("gamermod", "elon_musk"), new BlockItem(ELON_MUSK, new FabricItemSettings().group(gamermod.FNUTS)));
+        Registry.register(Registry.BLOCK, new Identifier("gameritems", "elon_musk"), ELON_MUSK);
+        Registry.register(Registry.ITEM, new Identifier("gameritems", "elon_musk"), new BlockItem(ELON_MUSK, new FabricItemSettings().group(gameritems.FNUTS)));
 
-        gamermod.LOGGER.info("FunnyBlocks loaded");
+        gameritems.LOGGER.info("FunnyBlocks loaded");
     }
 }

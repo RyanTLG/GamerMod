@@ -1,8 +1,8 @@
 {
     "replace": false,
     "values": [
-      "gamermod:omnium_shovel",
-      "gamermod:orium_shovel",
-      "gamermod:jeremium_shovel"
+      "gameritems:omnium_shovel",
+      "gameritems:orium_shovel",
+      "gameritems:jeremium_shovel"
     ]
   }

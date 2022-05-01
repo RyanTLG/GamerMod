@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "gameritems:raw_omnium"
+    },
+    "result": "gameritems:omnium_ingot",
+    "experience": 1,
+    "cookingtime": 200
+}

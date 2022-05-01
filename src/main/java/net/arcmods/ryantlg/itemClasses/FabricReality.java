@@ -19,7 +19,7 @@ public class FabricReality extends Item{
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
 
-    tooltip.add( new TranslatableText("item.gamermod.fabric_of_reality.tooltip").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
+    tooltip.add( new TranslatableText("item.gameritems.fabric_of_reality.tooltip").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
 
     }
 }

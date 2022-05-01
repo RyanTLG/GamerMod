@@ -19,6 +19,6 @@ public class WeemItem extends Item {
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
 
-    tooltip.add( new TranslatableText("item.gamermod.weem.tooltip").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
+    tooltip.add( new TranslatableText("item.gameritems.weem.tooltip").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
 }
 }

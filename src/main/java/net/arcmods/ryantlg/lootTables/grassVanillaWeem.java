@@ -1,6 +1,6 @@
 package net.arcmods.ryantlg.lootTables;
 
-import net.arcmods.ryantlg.gamermod;
+import net.arcmods.ryantlg.gameritems;
 import net.arcmods.ryantlg.items.itemsByCrop.weemItems;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
@@ -33,6 +33,6 @@ public class grassVanillaWeem {
     public static void register() {
         modifyLootTables();
 
-        gamermod.LOGGER.info("grassVanillaWeem loaded");
+        gameritems.LOGGER.info("grassVanillaWeem loaded");
     }
 }
