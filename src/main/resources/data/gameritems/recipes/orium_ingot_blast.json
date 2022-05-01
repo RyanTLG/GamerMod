@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "gameritems:raw_orium"
+    },
+    "result": "gameritems:orium_ingot",
+    "experience": 1.0,
+    "cookingtime": 70
+}

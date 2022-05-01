@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "gamermod:raw_jeremium"
-    },
-    "result": "gamermod:jeremium_ingot",
-    "experience": 1.0,
-    "cookingtime": 100
-}

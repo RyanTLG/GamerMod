@@ -1,0 +1,15 @@
+  {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gameritems:drag"
+        },
+        {
+            "item": "gameritems:deez_nuts_on_your_chin"
+        }
+    ],
+    "result": {
+        "item": "gameritems:drag_deez_nuts_on_your_chin",
+        "count": 1
+    }
+}

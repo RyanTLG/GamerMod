@@ -1,6 +1,6 @@
 package net.arcmods.ryantlg.blocks;
 
-import net.arcmods.ryantlg.gamermod;
+import net.arcmods.ryantlg.gameritems;
 import net.arcmods.ryantlg.blockClasses.jeremiumBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -18,16 +18,16 @@ public class jeremiumBlocks {
     public static final Block DEEPSLATE_JEREMIUM_ORE = new jeremiumBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool().luminance(5).sounds(BlockSoundGroup.DEEPSLATE));
 
     public static void register() {
-        Registry.register(Registry.BLOCK, new Identifier("gamermod", "jeremium_ore"), JEREMIUM_ORE);
-        Registry.register(Registry.ITEM, new Identifier("gamermod", "jeremium_ore"), new BlockItem(JEREMIUM_ORE, new FabricItemSettings().group(gamermod.CHING).fireproof().maxCount(56)));
+        Registry.register(Registry.BLOCK, new Identifier("gameritems", "jeremium_ore"), JEREMIUM_ORE);
+        Registry.register(Registry.ITEM, new Identifier("gameritems", "jeremium_ore"), new BlockItem(JEREMIUM_ORE, new FabricItemSettings().group(gameritems.CHING).fireproof().maxCount(56)));
 
-        Registry.register(Registry.BLOCK, new Identifier("gamermod", "deepslate_jeremium_ore"), DEEPSLATE_JEREMIUM_ORE);
-        Registry.register(Registry.ITEM, new Identifier("gamermod", "deepslate_jeremium_ore"), new BlockItem(DEEPSLATE_JEREMIUM_ORE, new FabricItemSettings().group(gamermod.CHING).fireproof().maxCount(56)));
+        Registry.register(Registry.BLOCK, new Identifier("gameritems", "deepslate_jeremium_ore"), DEEPSLATE_JEREMIUM_ORE);
+        Registry.register(Registry.ITEM, new Identifier("gameritems", "deepslate_jeremium_ore"), new BlockItem(DEEPSLATE_JEREMIUM_ORE, new FabricItemSettings().group(gameritems.CHING).fireproof().maxCount(56)));
 
-        Registry.register(Registry.BLOCK, new Identifier("gamermod", "jeremium_block"), JEREMIUM_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier("gamermod", "jeremium_block"), new BlockItem(JEREMIUM_BLOCK, new FabricItemSettings().group(gamermod.CHING).fireproof().maxCount(56)));
+        Registry.register(Registry.BLOCK, new Identifier("gameritems", "jeremium_block"), JEREMIUM_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier("gameritems", "jeremium_block"), new BlockItem(JEREMIUM_BLOCK, new FabricItemSettings().group(gameritems.CHING).fireproof().maxCount(56)));
 
-        gamermod.LOGGER.info("jeremiumBlocks loaded");
+        gameritems.LOGGER.info("jeremiumBlocks loaded");
     }
     
 }

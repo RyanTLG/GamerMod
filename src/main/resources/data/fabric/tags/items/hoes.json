@@ -1,8 +1,8 @@
 {
     "replace": false,
     "values": [
-      "gamermod:omnium_hoe",
-      "gamermod:orium_hoe",
-      "gamermod:jeremium_hoe"
+      "gameritems:omnium_hoe",
+      "gameritems:orium_hoe",
+      "gameritems:jeremium_hoe"
     ]
   }

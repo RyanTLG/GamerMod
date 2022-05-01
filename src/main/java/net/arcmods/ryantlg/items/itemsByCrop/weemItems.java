@@ -1,6 +1,6 @@
 package net.arcmods.ryantlg.items.itemsByCrop;
 
-import net.arcmods.ryantlg.gamermod;
+import net.arcmods.ryantlg.gameritems;
 import net.arcmods.ryantlg.blocks.CropBlocks;
 import net.arcmods.ryantlg.itemClasses.BreemItem;
 import net.arcmods.ryantlg.itemClasses.WeemItem;
@@ -18,11 +18,11 @@ public class weemItems {
 
 //main items
 //================================================================================================================
-    public static final Item WEEM = new Item(new Item.Settings().group(gamermod.CHING).maxCount(128));
+    public static final Item WEEM = new Item(new Item.Settings().group(gameritems.CHING).maxCount(128));
 
 //  foods
 //================================================================================================================
-    public static final Item BREEM = new BreemItem(new FabricItemSettings().group(gamermod.CHING)
+    public static final Item BREEM = new BreemItem(new FabricItemSettings().group(gameritems.CHING)
     .food(
         new FoodComponent
         .Builder()
@@ -36,7 +36,7 @@ public class weemItems {
         .build()
         ));
 
-    public static final Item WEEM_APPLE = new WeemItem(new FabricItemSettings().group(gamermod.CHING)
+    public static final Item WEEM_APPLE = new WeemItem(new FabricItemSettings().group(gameritems.CHING)
     .food(
         new FoodComponent
         .Builder()
@@ -56,18 +56,18 @@ public class weemItems {
 
 //seeds
 //================================================================================================================
-    public static final Item WEEM_SEEDS = new AliasedBlockItem(CropBlocks.WEEM_CROP_BLOCK, new Item.Settings().group(gamermod.CHING));
+    public static final Item WEEM_SEEDS = new AliasedBlockItem(CropBlocks.WEEM_CROP_BLOCK, new Item.Settings().group(gameritems.CHING));
 
 
     public static void register() {
 
-        Registry.register(Registry.ITEM, new Identifier("gamermod", "breem"), BREEM);
-        Registry.register(Registry.ITEM, new Identifier("gamermod", "weem_apple"), WEEM_APPLE);
+        Registry.register(Registry.ITEM, new Identifier("gameritems", "breem"), BREEM);
+        Registry.register(Registry.ITEM, new Identifier("gameritems", "weem_apple"), WEEM_APPLE);
 
-        Registry.register(Registry.ITEM, new Identifier("gamermod","weem_seeds"), WEEM_SEEDS);
-        Registry.register(Registry.ITEM, new Identifier("gamermod", "weem"), WEEM);
+        Registry.register(Registry.ITEM, new Identifier("gameritems","weem_seeds"), WEEM_SEEDS);
+        Registry.register(Registry.ITEM, new Identifier("gameritems", "weem"), WEEM);
 
-        gamermod.LOGGER.info("weemItems loaded");
+        gameritems.LOGGER.info("weemItems loaded");
     }
     
 }

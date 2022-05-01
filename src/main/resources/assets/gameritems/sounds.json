@@ -1,0 +1,17 @@
+{
+    "sniff": {
+      "sounds": [
+        "gameritems:sniff"
+      ]
+    },
+    "matt": {
+        "sounds": [
+            "gameritems:damon"
+        ]
+    },
+    "elon": {
+      "sounds": [
+        "gameritems:elon"
+      ]
+    }
+  }

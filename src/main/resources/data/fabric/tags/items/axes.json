@@ -1,8 +1,8 @@
 {
     "replace": false,
     "values": [
-      "gamermod:omnium_axe",
-      "gamermod:orium_axe",
-      "gamermod:jeremium_axe"
+      "gameritems:omnium_axe",
+      "gameritems:orium_axe",
+      "gameritems:jeremium_axe"
     ]
   }

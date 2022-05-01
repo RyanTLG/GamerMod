@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "gamermod:raw_omnium"
-    },
-    "result": "gamermod:omnium_ingot",
-    "experience": 1.0,
-    "cookingtime": 70
-}

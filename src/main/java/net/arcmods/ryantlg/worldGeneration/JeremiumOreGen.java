@@ -1,6 +1,6 @@
 package net.arcmods.ryantlg.worldGeneration;
 
-import net.arcmods.ryantlg.gamermod;
+import net.arcmods.ryantlg.gameritems;
 import net.arcmods.ryantlg.blocks.jeremiumBlocks;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
@@ -37,13 +37,13 @@ public class JeremiumOreGen {
 		
 
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
-        new Identifier("gamermod", "deepslate_jeremium_ore"), ORE_CONFIGURED_FEATURE);
-    	Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier("gamermod", "deepslate_jeremium_ore"),
+        new Identifier("gameritems", "deepslate_jeremium_ore"), ORE_CONFIGURED_FEATURE);
+    	Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier("gameritems", "deepslate_jeremium_ore"),
         	ORE_PLACED_FEATURE);
     	BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
         	RegistryKey.of(Registry.PLACED_FEATURE_KEY,
-            	new Identifier("gamermod", "deepslate_jeremium_ore")));
+            	new Identifier("gameritems", "deepslate_jeremium_ore")));
 
-		gamermod.LOGGER.info("JeremiumOreGen loaded");
+		gameritems.LOGGER.info("JeremiumOreGen loaded");
     }
 }

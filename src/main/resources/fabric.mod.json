@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "gamermod",
+  "id": "gameritems",
   "version": "${version}",
 
-  "name": "GamerMod",
+  "name": "GamerItems",
   "description": "for gamers, by gæmer",
   "authors": [
     "RyanTLG"
   ],
 
   "contact": {
-    "issues": "https://github.com/RyanTLG/GamerMod/issues",
-    "sources": "https://github.com/RyanTLG/GamerMod"
+    "issues": "https://github.com/RyanTLG/GamerItems/issues",
+    "sources": "https://github.com/RyanTLG/GamerItems"
   },
 
   "license": "GPL3",
-  "icon": "assets/gamermod/icon.png",
+  "icon": "assets/gameritems/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.arcmods.ryantlg.gamermod"
+      "net.arcmods.ryantlg.gameritems"
     ],
     "client": [
-      "net.arcmods.ryantlg.gamermodClient"
+      "net.arcmods.ryantlg.gameritemsClient"
     ]
   },
   "mixins": [
-    "gamermod.mixins.json"
+    "gameritems.mixins.json"
   ],
 
   "depends": {

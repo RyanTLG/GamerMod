@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gameritems:orium_block"
+        }
+    ],
+    "result": {
+        "item": "gameritems:orium_ingot",
+        "count": 9
+    }
+}

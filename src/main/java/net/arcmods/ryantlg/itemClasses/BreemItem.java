@@ -19,6 +19,6 @@ public class BreemItem extends Item {
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
 
-    tooltip.add( new TranslatableText("item.gamermod.breem.tooltip").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
+    tooltip.add( new TranslatableText("item.gameritems.breem.tooltip").formatted(Formatting.LIGHT_PURPLE, Formatting.ITALIC) );
 }
 }

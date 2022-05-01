@@ -1,8 +1,8 @@
 {
     "replace": false,
     "values": [
-      "gamermod:omnium_pickaxe",
-      "gamermod:orium_pickaxe",
-      "gamermod:jeremium_pickaxe"
+      "gameritems:omnium_pickaxe",
+      "gameritems:orium_pickaxe",
+      "gameritems:jeremium_pickaxe"
     ]
   }
