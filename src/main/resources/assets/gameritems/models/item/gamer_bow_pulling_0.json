@@ -1,6 +1,0 @@
-{
-    "parent": "gameritems:item/gamer_bow",
-    "textures": {
-        "layer0": "gameritems:item/gamer_bow_pulling_0"
-    }
-}

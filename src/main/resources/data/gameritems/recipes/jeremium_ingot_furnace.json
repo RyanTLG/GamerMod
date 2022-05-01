@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient": {
-        "item": "gameritems:raw_jeremium"
-    },
-    "result": "gameritems:jeremium_ingot",
-    "experience": 1,
-    "cookingtime": 250
-}
