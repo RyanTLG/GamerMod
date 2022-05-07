@@ -34,7 +34,7 @@ public class weemItems {
         .statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20*7), 1f)
         .statusEffect(new StatusEffectInstance(GamerEffects.HIGH, 20*8), 1f)
         .build()
-        ).maxCount(64));
+        ));
 
     public static final Item WEEM_APPLE = new WeemItem(new FabricItemSettings().group(gameritems.CHING)
     .food(
