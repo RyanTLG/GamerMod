@@ -11,12 +11,12 @@ public class GamerEffects {
 
     public static final StatusEffect HIGH = new highStatusEffect();
 
-    public static final StatusEffect JEREMYD = new jeremydStatusEffect();
+    //public static final StatusEffect JEREMYD = new jeremydStatusEffect();
 
     public static void register() {
         Registry.register(Registry.STATUS_EFFECT, new Identifier("gameritems", "high"), HIGH);
 
-        Registry.register(Registry.STATUS_EFFECT, new Identifier("gameritems", "jeremyd"), JEREMYD);
+        //Registry.register(Registry.STATUS_EFFECT, new Identifier("gameritems", "jeremyd"), JEREMYD);
 
         gameritems.LOGGER.info("statusEffects Loaded");
     }
