@@ -22,7 +22,7 @@ public class grassVanillaWeem {
                 .rolls(ConstantLootNumberProvider.create(1))
                 .with(ItemEntry.builder(weemItems.WEEM_SEEDS))
                 .withFunction(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1.0f)).build())
-                .conditionally(RandomChanceLootCondition.builder(0.04f));
+                .conditionally(RandomChanceLootCondition.builder(0.0123132f));
                 supplier.withPool(weemSeed.build());
 
             }

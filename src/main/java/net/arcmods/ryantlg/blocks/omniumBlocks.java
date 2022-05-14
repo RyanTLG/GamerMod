@@ -11,9 +11,9 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class omniumBlocks {
-    public static final Block OMNIUM_ORE           = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
-	public static final Block OMNIUM_BLOCK         = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
-    public static final Block DEEPSLATE_OMNIUM_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE));
+    public static final Block OMNIUM_ORE           = new Block(FabricBlockSettings.of(Material.STONE).strength(3.5f, 4.0f).requiresTool());
+	public static final Block OMNIUM_BLOCK         = new Block(FabricBlockSettings.of(Material.METAL).strength(5.5f, 7f).requiresTool());
+    public static final Block DEEPSLATE_OMNIUM_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f, 3.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE));
 
     public static void register() {
 
