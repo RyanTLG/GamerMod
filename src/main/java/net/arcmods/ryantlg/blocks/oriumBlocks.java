@@ -13,9 +13,9 @@ import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class oriumBlocks {
-    public static final Block ORIUM_ORE = new oriumBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool());
-	public static final Block ORIUM_BLOCK = new oriumBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool());
-    public static final Block DEEPSLATE_ORIUM_ORE = new oriumBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE));
+    public static final Block ORIUM_ORE = new oriumBlock(FabricBlockSettings.of(Material.STONE).strength(3.2f, 3.0f).requiresTool());
+	public static final Block ORIUM_BLOCK = new oriumBlock(FabricBlockSettings.of(Material.METAL).strength(5.0f, 4.0F).requiresTool());
+    public static final Block DEEPSLATE_ORIUM_ORE = new oriumBlock(FabricBlockSettings.of(Material.STONE).strength(4.3f, 3.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE));
 
     public static void register() {
 
