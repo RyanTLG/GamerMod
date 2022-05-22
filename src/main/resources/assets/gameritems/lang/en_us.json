@@ -69,6 +69,7 @@
     "block.gameritems.deepslate_jeremium_ore": "Deepslate Jeremium Ore",
     "block.gameritems.deepslate_omnium_ore": "Deepslate Omnium Ore",
     "block.gameritems.deepslate_orium_ore": "Deepslate Orium Ore",
-    "item.gameritems.gamer_bow": "Gamer Bow"
+    "item.gameritems.gamer_bow": "Gamer Bow",
+    "enchantment.gameritems.evade": "Evade"
 
 } 
