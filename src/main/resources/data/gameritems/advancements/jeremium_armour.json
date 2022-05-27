@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "item": "gameritems:jeremium_helmet"
+      },
+      "title": "coSvered in red",
+      "description": "Get a full set of Jeremium armour",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "gameritems:raw_jeremium",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "gameritems:jeremium_helmet"
+              ]
+            },
+            {
+              "items": [
+                "gameritems:jeremium_chestplate"
+              ]
+            },
+            {
+              "items": [
+                "gameritems:jeremium_leggings"
+              ]
+            },
+            {
+              "items": [
+                "gameritems:jeremium_boots"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

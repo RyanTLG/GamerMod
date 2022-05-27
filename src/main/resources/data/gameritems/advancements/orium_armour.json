@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "gameritems:orium_helmet"
+    },
+    "title": "covered iN blUe",
+    "description": "Get a full set of Orium armour",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gameritems:raw_orium",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gameritems:orium_helmet"
+            ]
+          },
+          {
+            "items": [
+              "gameritems:orium_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "gameritems:orium_leggings"
+            ]
+          },
+          {
+            "items": [
+              "gameritems:orium_boots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
