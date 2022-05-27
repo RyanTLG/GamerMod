@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "gameritems:raw_omnium"
+      "item": "gameritems:raw_orium"
     },
-    "title": "greEN?",
-    "description": "Get a piece of raw Omnium",
+    "title": "blueS?",
+    "description": "Get a piece of raw Orium",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "gameritems:orium_armour",
+  "parent": "gameritems:gameritems",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -17,7 +17,7 @@
         "items": [
           {
             "items": [
-              "gameritems:raw_omnium"
+              "gameritems:raw_orium"
             ]
           }
         ]

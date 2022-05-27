@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "item": "gameritems:omnium_helmet"
+      },
+      "title": "covereD in greEn",
+      "description": "Get a full set of Omnium armour",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "gameritems:raw_omnium",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "gameritems:omnium_helmet"
+              ]
+            },
+            {
+              "items": [
+                "gameritems:omnium_chestplate"
+              ]
+            },
+            {
+              "items": [
+                "gameritems:omnium_leggings"
+              ]
+            },
+            {
+              "items": [
+                "gameritems:omnium_boots"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  
