@@ -1,7 +1,7 @@
 package net.arcmods.ryantlg.items.itemsByCrop;
 
 import net.arcmods.ryantlg.gameritems;
-import net.arcmods.ryantlg.blocks.CropBlocks;
+import net.arcmods.ryantlg.blocks.cropBlocks.weemCrop;
 import net.arcmods.ryantlg.itemClasses.BreemItem;
 import net.arcmods.ryantlg.itemClasses.WeemItem;
 import net.arcmods.ryantlg.statusEffects.GamerEffects;
@@ -56,14 +56,13 @@ public class weemItems {
 
 //seeds
 //================================================================================================================
-    public static final Item WEEM_SEEDS = new AliasedBlockItem(CropBlocks.WEEM_CROP_BLOCK, new Item.Settings().group(gameritems.CHING));
+    public static final Item WEEM_SEEDS = new AliasedBlockItem(weemCrop.WEEM_CROP_BLOCK, new Item.Settings().group(gameritems.CHING));
 
 
     public static void register() {
 
         Registry.register(Registry.ITEM, new Identifier("gameritems", "breem"), BREEM);
         Registry.register(Registry.ITEM, new Identifier("gameritems", "weem_apple"), WEEM_APPLE);
-
         Registry.register(Registry.ITEM, new Identifier("gameritems","weem_seeds"), WEEM_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("gameritems", "weem"), WEEM);
 

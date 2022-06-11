@@ -1,10 +1,10 @@
 package net.arcmods.ryantlg;
 
-import net.arcmods.ryantlg.blocks.CropBlocks;
-import net.arcmods.ryantlg.blocks.FunnyBlocks;
-import net.arcmods.ryantlg.blocks.jeremiumBlocks;
-import net.arcmods.ryantlg.blocks.omniumBlocks;
-import net.arcmods.ryantlg.blocks.oriumBlocks;
+import net.arcmods.ryantlg.blocks.cropBlocks.weemCrop;
+import net.arcmods.ryantlg.blocks.metalBlocks.jeremiumBlocks;
+import net.arcmods.ryantlg.blocks.metalBlocks.omniumBlocks;
+import net.arcmods.ryantlg.blocks.metalBlocks.oriumBlocks;
+import net.arcmods.ryantlg.blocks.otherBlocks.FunnyBlocks;
 import net.arcmods.ryantlg.enchantments.evadeEnchantment;
 import net.arcmods.ryantlg.items.armour.jeremiumArmour;
 import net.arcmods.ryantlg.items.armour.notArmour;
@@ -86,7 +86,7 @@ public class gameritems implements ModInitializer {
 		OriumOreGen.register();
 		DeepslateOriumOreGen.register();
 
-		CropBlocks.register();
+		weemCrop.register();
 
 		fabricOfReality.register();
 

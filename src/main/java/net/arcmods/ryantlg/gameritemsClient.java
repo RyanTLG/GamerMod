@@ -1,6 +1,6 @@
 package net.arcmods.ryantlg;
 
-import net.arcmods.ryantlg.blocks.CropBlocks;
+import net.arcmods.ryantlg.blocks.cropBlocks.weemCrop;
 import net.arcmods.ryantlg.utils.bowModelPredicateProvider;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
@@ -13,7 +13,7 @@ public class gameritemsClient implements ClientModInitializer{
 
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), CropBlocks.WEEM_CROP_BLOCK);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), weemCrop.WEEM_CROP_BLOCK);
 
         bowModelPredicateProvider.registerBowModels();
 

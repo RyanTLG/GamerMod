@@ -3,7 +3,7 @@ package net.arcmods.ryantlg.worldGeneration;
 import java.util.Arrays;
 
 import net.arcmods.ryantlg.gameritems;
-import net.arcmods.ryantlg.blocks.omniumBlocks;
+import net.arcmods.ryantlg.blocks.metalBlocks.omniumBlocks;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.util.registry.RegistryKey;

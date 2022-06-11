@@ -1,4 +1,4 @@
-package net.arcmods.ryantlg.blocks;
+package net.arcmods.ryantlg.blocks.metalBlocks;
 
 import net.arcmods.ryantlg.gameritems;
 import net.arcmods.ryantlg.blockClasses.oriumBlock;

@@ -1,4 +1,4 @@
-package net.arcmods.ryantlg.blocks;
+package net.arcmods.ryantlg.blocks.metalBlocks;
 
 import net.arcmods.ryantlg.gameritems;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
