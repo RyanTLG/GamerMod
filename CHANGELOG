@@ -1,28 +1,3 @@
 # Changes:
-## 1.18.2-0.1.0-unstable
-- changed dependencies for update to 1.18.2
-- still have "errors" in code, not sure how to fix
-- ore gen works perfectly (checked) even with errors
-- created CHANGELOG file for version branch
-- have crippling depression
-- man, updating is a bitch
-
-## 1.18.2-1.0.0-stable
-- for all i care this shit looks stable to me
-
-## 1.18.2-1.1.0-stable
-- ported gamer bow to 1.18.2
-
-## 1.18.2-1.1.1-unstable
-- fixed weem stacking to 85 (maybe)
-- nerfed high effect
-
-## 1.18.2-1.1.2-unstable
-- added healing back to high effect with lower amplifier
-- changed block strength of all (non joke) blocks
-
-## 1.18.2-1.1.3-unstable (incomplete)
-- added evade enchantment
-- added more advancements
-- added weem hay bale
-- rearranged block files
+## 1.19-1.0.0-stable
+- updating is despicable

@@ -7,7 +7,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
 
@@ -17,6 +16,6 @@ public class OmniumSwordItem extends SwordItem {
     }
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-    tooltip.add( new TranslatableText("item.gameritems.omnium_sword.tooltip").formatted(Formatting.DARK_PURPLE, Formatting.ITALIC) );
+        tooltip.add(Text.translatable("item.gameritems.omnium_sword.tooltip").formatted(Formatting.RED) );
     }
 }
