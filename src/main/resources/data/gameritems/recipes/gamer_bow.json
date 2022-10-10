@@ -1,18 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-      " #X",
-      "#SX",
-      " #X"
+      "ESX",
+      "SEX",
+      "ESX"
     ],
     "key": {
-      "#": {
+      "S": {
         "item": "minecraft:stick"
       },
       "X": {
         "item": "minecraft:string"
       },
-      "S": {
+      "E": {
           "item": "minecraft:light_blue_dye"
       }
     },

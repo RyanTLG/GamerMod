@@ -71,6 +71,9 @@
     "block.gameritems.deepslate_orium_ore": "Deepslate Orium Ore",
     "item.gameritems.gamer_bow": "Gamer Bow",
     "enchantment.gameritems.evade": "Evade",
-    "block.gameritems.weem_hay_block": "Weem Hay Bale"
+    "block.gameritems.weem_hay_block": "Weem Hay Bale",
+    "item.gameritems.stupidium.tooltip": "No brain here.",
+    "death.attack.dumb": "%1$s didn't know how to breathe.",
+    "effect.gameritems.stupid": "Stupid"
 
 } 

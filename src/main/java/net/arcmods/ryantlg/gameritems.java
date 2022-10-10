@@ -11,6 +11,7 @@ import net.arcmods.ryantlg.items.armour.notArmour;
 import net.arcmods.ryantlg.items.armour.omniumArmour;
 import net.arcmods.ryantlg.items.armour.oriumArmour;
 import net.arcmods.ryantlg.items.bows.gamerBow;
+// import net.arcmods.ryantlg.items.bows.stupidBow;
 import net.arcmods.ryantlg.items.itemsByCrop.weemItems;
 import net.arcmods.ryantlg.items.metalItems.jeremiumMetals;
 import net.arcmods.ryantlg.items.metalItems.omniumMetals;
@@ -100,6 +101,7 @@ public class gameritems implements ModInitializer {
 
 		notArmour.register();
 		gamerBow.register();
+		// stupidBow.register(); // incomplete: lazy
 
 		evadeEnchantment.register();
 
