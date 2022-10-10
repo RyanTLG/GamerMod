@@ -20,6 +20,7 @@ import net.arcmods.ryantlg.items.miscItems.FunnyItems;
 import net.arcmods.ryantlg.items.miscItems.OtherItems;
 import net.arcmods.ryantlg.items.miscItems.fabricOfReality;
 import net.arcmods.ryantlg.items.tools.jeremiumTools;
+import net.arcmods.ryantlg.items.tools.notTools;
 import net.arcmods.ryantlg.items.tools.omniumTools;
 import net.arcmods.ryantlg.items.tools.oriumTools;
 import net.arcmods.ryantlg.lootTables.grassVanillaWeem;
@@ -100,6 +101,7 @@ public class gameritems implements ModInitializer {
 		JeremiumOreGen.register();
 
 		notArmour.register();
+		notTools.register();
 		gamerBow.register();
 		// stupidBow.register(); // incomplete: lazy
 

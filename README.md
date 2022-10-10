@@ -29,4 +29,4 @@ If you find an issue or bug in the mod or just have a general suggestion you can
 [aaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA](https://github.com/RyanTLG/GamerItems/blob/1-18-1/unstable/AAAAAAAAAAAAAAAa)
 
 ## NOTICE
-due to my lack of an attention span, i will no longer be updating or maintaining 1.18 versions, this is a final decision. I will also not support any versions up from 1.19 (pre chat reporting and account banning). Anyone willing to update 1.18 branches or add branches for older/newer minecraft versions are welcome to ask me [here]()
+due to my lack of an attention span, i will no longer be updating or maintaining 1.18 versions, this is a final decision. I will also not support any versions up from 1.19 (pre chat reporting and account banning). Anyone willing to update 1.18 branches or add branches for older/newer minecraft versions are welcome to ask me [here](https://discord.gg/nsYbUnjBFJ)
