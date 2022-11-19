@@ -17,18 +17,18 @@ public class elon extends Block{
         super(settings);
     }
 
-    @Override
-    public ActionResult onUse(BlockState blockState, World world, BlockPos blockPos, PlayerEntity placedBy, Hand hand, BlockHitResult blockHitResult) {
-        if (!world.isClient) {
-            world.playSound(
-                    null, // Player - if non-null, will play sound for every nearby player *except* the specified player
-                    blockPos, // The position of where the sound will come from
-                    sounds.ELON_SOUND_EVENT, // The sound that will play
-                    SoundCategory.BLOCKS, // This determines which of the volume sliders affect this sound
-                    1f, //Volume multiplier, 1 is normal, 0.5 is half volume, etc
-                    1f // Pitch multiplier, 1 is normal, 0.5 is half pitch, etc
-            );
-        }
-        return ActionResult.FAIL;
-    }
+    // @Override
+    // public ActionResult onUse(BlockState blockState, World world, BlockPos blockPos, PlayerEntity placedBy, Hand hand, BlockHitResult blockHitResult) {
+    //     if (!world.isClient) {
+    //         world.playSound(
+    //                 null, // Player - if non-null, will play sound for every nearby player *except* the specified player
+    //                 blockPos, // The position of where the sound will come from
+    //                 sounds.ELON_SOUND_EVENT, // The sound that will play
+    //                 SoundCategory.BLOCKS, // This determines which of the volume sliders affect this sound
+    //                 1f, //Volume multiplier, 1 is normal, 0.5 is half volume, etc
+    //                 1f // Pitch multiplier, 1 is normal, 0.5 is half pitch, etc
+    //         );
+    //     }
+    //     return ActionResult.FAIL;
+    // }
 }
