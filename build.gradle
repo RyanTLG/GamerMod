@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '0.11-SNAPSHOT'
+	id 'fabric-loom' version '0.12-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -72,7 +72,7 @@ publishing {
 	repositories {
     		maven {
       			name = "GitHubPackages"
-      			url = "https://maven.pkg.github.com/RyanTLG/gameritems"
+      			url = "https://maven.pkg.github.com/BigGaemer/gameritems"
       			credentials {
         		username = System.getenv("UNAME")
         		password = System.getenv("TOKEN")

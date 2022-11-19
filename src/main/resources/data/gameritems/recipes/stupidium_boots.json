@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "FUF",
+        "F F"
+    ],
+    "key": {
+        "F": {
+            "item": "gameritems:stupidium_ingot"
+        },
+        "U": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "item": "gameritems:stupidium_boots",
+        "count": 1
+    }
+}

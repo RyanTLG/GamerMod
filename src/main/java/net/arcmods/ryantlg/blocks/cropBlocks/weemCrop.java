@@ -17,14 +17,14 @@ import net.minecraft.util.registry.Registry;
 
 public class weemCrop {
     public static final CropBlock WEEM_CROP_BLOCK = new WeemCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
-    public static final Block WEEM_HAY_BLOCK = new PillarBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC).nonOpaque().strength(1, 1).sounds(BlockSoundGroup.GRASS));
+    public static final Block WEEM_HAYBALE = new PillarBlock(FabricBlockSettings.of(Material.SOLID_ORGANIC).nonOpaque().strength(1, 1).sounds(BlockSoundGroup.GRASS));
 
     public static void register() {
 
         Registry.register(Registry.BLOCK, new Identifier("gameritems","weem_crop_block"), WEEM_CROP_BLOCK);
-        Registry.register(Registry.BLOCK, new Identifier("gameritems", "weem_hay_block"), WEEM_HAY_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier("gameritems", "weem_hay_block"), new BlockItem(WEEM_HAY_BLOCK, new FabricItemSettings().group(gameritems.CHING)));
-        FlammableBlockRegistry.getDefaultInstance().add(WEEM_HAY_BLOCK, 60, 20);
+        Registry.register(Registry.BLOCK, new Identifier("gameritems", "weem_haybale"), WEEM_HAYBALE);
+        Registry.register(Registry.ITEM, new Identifier("gameritems", "weem_haybale"), new BlockItem(WEEM_HAYBALE, new FabricItemSettings().group(gameritems.CHING)));
+        FlammableBlockRegistry.getDefaultInstance().add(WEEM_HAYBALE, 60, 20);
 
         gameritems.LOGGER.info("CropBlocks loaded");
     }

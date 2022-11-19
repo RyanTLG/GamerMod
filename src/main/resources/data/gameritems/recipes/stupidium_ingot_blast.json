@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "gameritems:raw_stupidium"
+    },
+    "result": "gameritems:stupidium_ingot",
+    "experience": 1.9,
+    "cookingtime": 100
+  }

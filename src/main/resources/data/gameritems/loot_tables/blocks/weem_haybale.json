@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "gameritems:weem_hay_block"
+            "name": "gameritems:weem_haybale"
           }
         ],
         "conditions": [

@@ -44,7 +44,7 @@ public class stupidiumArmorMaterial implements ArmorMaterial {
 	@Override
 	public String getName() {
 		// Must be all lowercase
-		return "orium";
+		return "stupidium";
 	}
  
 	@Override

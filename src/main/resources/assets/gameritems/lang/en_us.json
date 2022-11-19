@@ -1,18 +1,21 @@
 {
+    // bullshit items
     "item.gameritems.chin": "your chin",
-    "itemGroup.gameritems.chins": "funny stuff",
     "item.gameritems.nuts": "nuts",
     "item.gameritems.deez": "deez",
     "item.gameritems.deez_nuts": "deez nuts",
     "item.gameritems.deez_nuts_on_your_chin": "deez nuts on your chin",
     "item.gameritems.drag": "drag",
     "item.gameritems.drag_deez_nuts_on_your_chin": "drag deez nuts on our chin",
+    "item.gameritems.your_mother": "your mother",
+    "block.gameritems.matt_damon": "matt damon",
+
+
+    // omnium
     "item.gameritems.omnium_ingot": "Omnium Ingot",
     "block.gameritems.omnium_ore": "Omnium Ore",
     "block.gameritems.omnium_block": "Omnium Block",
     "item.gameritems.raw_omnium": "Raw Omnium",
-    "item.gameritems.your_mother": "your mother",
-    "block.gameritems.matt_damon": "matt damon",
     "item.gameritems.omnium_sword": "Omnium Sword",
     "item.gameritems.omnium_pickaxe": "Omnium Pickaxe",
     "item.gameritems.omnium_helmet": "Omnium Helmet",
@@ -22,16 +25,29 @@
     "item.gameritems.omnium_shovel": "Omnium Shovel",
     "item.gameritems.omnium_axe": "Omnium Axe",
     "item.gameritems.omnium_hoe": "Omnium Hoe",
+    "block.gameritems.deepslate_omnium_ore": "Deepslate Omnium Ore",
     "item.gameritems.netherite_stick": "Netherite Stick",
+    "item.gameritems.omnium_sword.tooltip": "Surprisingly lightweight!",
+
+
+    // item groups
     "itemGroup.gameritems.things": "ueh, stuff",
     "itemGroup.gameritems.armour_and_tools": "Armour, Weapons, and Tools",
-    "item.gameritems.omnium_sword.tooltip": "Surprisingly lightweight!",
+    "itemGroup.gameritems.chins": "funny stuff",
+
+
+    // weem items
     "item.gameritems.weem": "Weem",
     "item.gameritems.weem_seeds": "Weem Seeds",
+    "item.gameritems.weem_apple": "Weem Apple",
+    "block.gameritems.weem_haybale": "Weem Hay Bale",
     "item.gameritems.breem": "Breem",
     "item.gameritems.breem.tooltip": "High as a kite!",
     "item.gameritems.weem.tooltip": "Higher than a kite!",
-    "item.gameritems.weem_apple": "Weem Apple",
+
+
+    // orium items
+    "block.gameritems.deepslate_orium_ore": "Deepslate Orium Ore",
     "item.gameritems.orium.tooltip": "hahaha ore-ium",
     "block.gameritems.orium.tooltip": "hahaha ore-ium",
     "item.gameritems.raw_orium": "Raw Orium",
@@ -47,9 +63,19 @@
     "item.gameritems.orium_hoe": "Orium Hoe",
     "item.gameritems.orium_sword": "Orium Sword",
     "item.gameritems.orium_pickaxe": "Orium Pickaxe",
+
+
+    // effects
+    "effect.gameritems.stupid": "Stupid",
+    "effect.gameritems.high": "High",
+
+
+    // fabric of reality
     "item.gameritems.fabric_of_reality.tooltip": "Warning: has a chance to get §o§l§4RIPPED§r.",
     "item.gameritems.fabric_of_reality": "Fabric of Reality",
-    "effect.gameritems.high": "High",
+
+
+    // jeremium items
     "item.gameritems.jeremium_ingot": "Jeremium Ingot",
     "item.gameritems.raw_jeremium": "Raw Jeremium",
     "block.gameritems.jeremium_ore": "Jeremium Ore",
@@ -67,13 +93,32 @@
     "item.gameritems.jeremium_pickaxe": "Jeremium Pickaxe",
     "item.gameritems.jeremium_sword.tooltip": "Kinda heavy",
     "block.gameritems.deepslate_jeremium_ore": "Deepslate Jeremium Ore",
-    "block.gameritems.deepslate_omnium_ore": "Deepslate Omnium Ore",
-    "block.gameritems.deepslate_orium_ore": "Deepslate Orium Ore",
-    "item.gameritems.gamer_bow": "Gamer Bow",
-    "enchantment.gameritems.evade": "Evade",
-    "block.gameritems.weem_hay_block": "Weem Hay Bale",
-    "item.gameritems.stupidium.tooltip": "No brain here.",
-    "death.attack.dumb": "%1$s choked on air.",
-    "effect.gameritems.stupid": "Stupid"
 
+
+    // ETC
+    "item.gameritems.gamer_bow": "Gamer Bow",
+
+
+    // enchantments
+    "enchantment.gameritems.evade": "Evade",
+
+
+    // death messages
+    "death.attack.dumb": "%1$s choked on air.",
+
+
+    // stupidium items
+    "item.gameritems.stupidium.tooltip": "No brain here.",
+    "item.gameritems.dipstick": "Dipstick",
+    "block.gameritems.stupidium_ore": "Stupidium Ore",
+    "block.gameritems.deepslate_stupidium_ore": "Deepslate Stupidium Ore",
+    "block.gameritems.stupidium_block": "Stupidium Block",
+    "item.gameritems.stupidium_shovel": "Stupidium Shovel",
+    "item.gameritems.stupidium_sword": "Stupidium Sword",
+    "item.gameritems.stupidium_axe": "Stupidium Axe",
+    "item.gameritems.stupidium_hoe": "Stupidium Hoe",
+    "item.gameritems.stupidium_pickaxe": "Stupidium Pickaxe",
+    "item.gameritems.stupidium_sword.tooltip": "Inflicts Stupid on the victim.",
+    "item.gameritems.stupidium_ingot": "Stupidium Ingot",
+    "item.gameritems.raw_stupidium": "Raw Stupidium"
 } 

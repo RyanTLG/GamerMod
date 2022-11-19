@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "FFF",
+        "FFF",
+        "FFF"
+    ],
+    "key": {
+        "F": {
+            "item": "gameritems:stupidium_ingot"
+        }
+    },
+    "result": {
+        "item": "gameritems:stupidium_block",
+        "count": 1
+    }
+}

@@ -19,7 +19,7 @@ public class StupidiumSwordItem extends SwordItem {
     }
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add(Text.translatable("item.gameritems.stupidium_tools.tooltip").formatted(Formatting.DARK_PURPLE, Formatting.ITALIC) );
+        tooltip.add(Text.translatable("item.gameritems.stupidium_sword.tooltip").formatted(Formatting.RED));
     }
 
     @Override

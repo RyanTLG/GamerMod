@@ -9,7 +9,7 @@ public class stupidStatusEffect extends StatusEffect {
     public stupidStatusEffect() {
         super(
           StatusEffectCategory.HARMFUL, 
-          0x3be012
+          0x6b3f7f
           ); 
       }
      

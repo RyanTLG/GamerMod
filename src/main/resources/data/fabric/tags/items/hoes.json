@@ -3,6 +3,8 @@
     "values": [
       "gameritems:omnium_hoe",
       "gameritems:orium_hoe",
-      "gameritems:jeremium_hoe"
+      "gameritems:jeremium_hoe",
+      "gameritems:stupidium_hoe",
+      "gameritems:not_hoe"
     ]
   }

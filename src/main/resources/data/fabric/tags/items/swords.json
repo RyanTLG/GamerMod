@@ -3,6 +3,8 @@
     "values": [
       "gameritems:omnium_sword",
       "gameritems:orium_sword",
-      "gameritems:jeremium_sword"
+      "gameritems:jeremium_sword",
+      "gameritems:stupidium_sword",
+      "gameritems:not_sword"
     ]
   }

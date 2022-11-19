@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gameritems:stupidium_block"
+        }
+    ],
+    "result": {
+        "item": "gameritems:stupidium_ingot",
+        "count": 9
+    }
+}

@@ -9,6 +9,9 @@
       "gameritems:deepslate_jeremium_ore",
       "gameritems:jeremium_block",
       "gameritems:deepslate_omnium_ore",
-      "gameritems:deepslate_orium_ore"
+      "gameritems:deepslate_orium_ore",
+      "gameritems:stupidium_ore",
+      "gameritems:deepslate_stupidium_ore",
+      "gameritems:stupidium_block"
     ]
   }

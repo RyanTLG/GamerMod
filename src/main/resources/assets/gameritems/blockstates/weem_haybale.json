@@ -1,14 +1,14 @@
 {
     "variants": {
       "axis=y": {
-        "model": "gameritems:block/weem_hay_block"
+        "model": "gameritems:block/weem_haybale"
       },
       "axis=z": {
-        "model": "gameritems:block/weem_hay_block",
+        "model": "gameritems:block/weem_haybale",
         "x": 90
       },
       "axis=x": {
-        "model": "gameritems:block/weem_hay_block",
+        "model": "gameritems:block/weem_haybale",
         "x": 90,
         "y": 90
       }

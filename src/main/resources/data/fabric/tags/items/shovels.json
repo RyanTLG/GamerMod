@@ -3,6 +3,8 @@
     "values": [
       "gameritems:omnium_shovel",
       "gameritems:orium_shovel",
-      "gameritems:jeremium_shovel"
+      "gameritems:jeremium_shovel",
+      "gameritems:stupidium_shovel",
+      "gameritems:not_shovel"
     ]
   }

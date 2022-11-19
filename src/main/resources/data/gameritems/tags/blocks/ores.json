@@ -2,10 +2,12 @@
     "replace": false,
     "values": [
       "gameritems:omnium_ore",
-      "gameritems:orium_ore",
+      "gameritems:deepslate_omnium_ore",
       "gameritems:jeremium_ore",
       "gameritems:deepslate_jeremium_ore",
-      "gameritems:deepslate_omnium_ore",
-      "gameritems:deepslate_orium_ore"
+      "gameritems:orium_ore",
+      "gameritems:deepslate_orium_ore",
+      "gameritems:stupidium_ore",
+      "gameritems:deepslate_stupidium_ore"
     ]
   }

@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "gameritems:weem_hay_block"
+            "item": "gameritems:weem_haybale"
         }
     ],
     "result": {

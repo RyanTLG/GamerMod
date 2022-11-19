@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "W#",
+        "W "
+    ],
+    "key": {
+        "#": {
+            "item": "gameritems:stupidium_ingot"
+        },
+        "W": {
+            "item": "gameritems:dipstick"
+        }
+    },
+    "result": {
+        "item": "gameritems:stupidium_axe",
+        "count": 1
+    }
+}
