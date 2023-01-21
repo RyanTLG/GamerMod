@@ -34,6 +34,7 @@ import net.arcmods.ryantlg.worldGeneration.DeepslateOriumOreGen;
 import net.arcmods.ryantlg.worldGeneration.JeremiumOreGen;
 import net.arcmods.ryantlg.worldGeneration.OmniumOreGen;
 import net.arcmods.ryantlg.worldGeneration.OriumOreGen;
+import net.arcmods.ryantlg.worldGeneration.StupidiumOreGen;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -74,6 +75,7 @@ public class gameritems implements ModInitializer {
 		omniumTools.register();
 		omniumBlocks.register();
 		OmniumOreGen.register();
+		StupidiumOreGen.register();
 		DeepslateOmniumOreGen.register();
 
 		weemItems.register();
