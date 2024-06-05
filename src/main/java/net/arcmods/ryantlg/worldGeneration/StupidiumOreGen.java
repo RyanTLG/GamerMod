@@ -46,7 +46,7 @@ public class StupidiumOreGen {
 		Arrays.asList(
 			CountPlacementModifier.of(1), // number of veins per chunk
 			SquarePlacementModifier.of(), // spreading horizontally
-			HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(-6))
+			HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(-20))
 		)); // height
 
     public static void register() {

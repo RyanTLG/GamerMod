@@ -120,5 +120,9 @@
     "item.gameritems.stupidium_pickaxe": "Stupidium Pickaxe",
     "item.gameritems.stupidium_sword.tooltip": "Inflicts Stupid on the victim.",
     "item.gameritems.stupidium_ingot": "Stupidium Ingot",
-    "item.gameritems.raw_stupidium": "Raw Stupidium"
+    "item.gameritems.raw_stupidium": "Raw Stupidium",
+    "item.gameritems.stupidium_helmet": "Stupidium Helmet",
+    "item.gameritems.stupidium_chestplate": "Stupidium Chestplate",
+    "item.gameritems.stupidium_leggings": "Stupidium Leggings",
+    "item.gameritems.stupidium_boots": "Stupidium Boots"
 } 
